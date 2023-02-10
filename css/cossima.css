@@ -1,0 +1,239 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+*/
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+header {
+   padding: 16px 0;
+}
+
+header h1 {
+   color: deeppink;
+   font-size: 40px;
+   font-weight: 100;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   bottom: 35px;
+   margin-left: 10px;
+}
+
+nav {
+   background-color: beige;
+   margin-bottom: 20px;
+}
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+nav ul li {
+   flex-grow: 1;
+}
+
+nav ul li a {
+   color: deeppink;
+   text-decoration: none;
+   padding: 6px;
+   display: block;
+   text-align: center;
+}
+
+nav ul li a:hover {
+   background-color: deeppink;
+   color: beige;
+}
+
+footer {
+   background-color: antiquewhite;
+   clear: both;
+   color: crimson;
+   text-align: center;
+   padding: 50px;
+   margin-top: 20px;
+}
+
+nav ul li a.activo {
+   background-color: deeppink;
+   color: beige;
+}
+
+.holder {
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+h2 {
+   text-align: center;
+   color: deeppink;
+}
+
+h3 {
+   color: rgb(255, 145, 204);
+}
+
+p {
+   color: rgb(252, 180, 218);
+}
+
+/*inicio home*/
+
+.centrar {
+   margin: auto;
+   display: block;
+}
+
+.mision {
+   width: 50%;
+   padding-right: 10px;
+   box-sizing: border-box;
+   background-color: beige;
+}
+
+.metodologia {
+   width: 50%;
+   padding-left: 10px;
+   box-sizing: border-box;
+   background-color: beige;
+}
+
+.columnas {
+   display: flex;
+   justify-content: space-between;
+}
+
+/*fin home*/
+/*inicio de equipo*/
+.quienessomos p {
+   font-size: 12px;
+}
+
+.persona {
+   border: 1px solid beige;
+   border-radius: 5px;
+   width: 18%;
+   text-align: center;
+   padding: 13px;
+   box-sizing: border-box;
+}
+
+.personas {
+   display: flex;
+   justify-content: space-between;
+}
+
+.persona img {
+   border-radius: 50%;
+   max-width: 60%;
+   box-shadow: 0 0 5px beige(0, 0, 0, 0.5);
+}
+
+.persona h5,
+.persona h6 {
+   margin: 0;
+   font-weight: normal;
+   color: rgb(250, 105, 182);
+}
+
+.persona p {
+   color: rgb(255, 145, 204);
+   font-size: 10px;
+}
+
+/*fin de equipo*/
+/*inicio servicios*/
+
+.headservicios img {
+   max-width: 90%;
+   margin: auto;
+   display: block;
+}
+
+.servicio {
+   border: 1px solid beige;
+   border-radius: 10px;
+   padding: 16px;
+   margin: 16px 0;
+   display: flex;
+   gap: 32px;
+   align-items: center;
+}
+
+.servicio .info h4 {
+   color: rgb(255, 145, 204);
+   font-weight: 500;
+   border-bottom: 1px solid rgb(250, 105, 182);
+   padding-bottom: 10px;
+}
+
+.servicio .info ul,
+p {
+   font-size: 15px;
+   color: rgb(255, 145, 204);
+}
+
+.servicio .img {
+   border-radius: 13px;
+   display: block;
+   max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+   flex-direction: row-reverse;
+}
+
+/*fin servicios*/
+
+/*inicio contactos*/
+.contacto {
+   display: flex;
+   gap: 80px;
+}
+
+.contacto div {
+   width: 100%;
+}
+
+.formulario p label {
+   min-width: 80px;
+}
+
+.formulario p input,
+.formulario p textarea {
+   width: 100%;
+   border-radius: 5px;
+   border: 1px solid beige;
+   font-size: 14px;
+   padding: 6px 10px;
+}
+
+.formulario p label {
+   display: flex;
+   align-items: center;
+}
+
+.formulario textarea {
+   resize: none;
+   height: 150px;
+}
+
+.formulario input[type="submit"] {
+   background-color: deeppink;
+   box-shadow: 0 0 10px rosybrown;
+   color: beige;
+   font-size: 16px;
+   padding: 6px 20px;
+   width: auto;
+   left: 5rem;
+   cursor: pointer;
+}
+
+
+/*fin contactos*/
